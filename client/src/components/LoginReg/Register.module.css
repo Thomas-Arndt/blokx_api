@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: fit-content;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    height: fit-content;
+    font-size: 35px;
+}
+
+.inputBox{
+    margin-top: 20px;
+    border: 2px solid rgb(20, 120, 220);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+}
+
+.submit{
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+
+}
